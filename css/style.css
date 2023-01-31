@@ -133,7 +133,12 @@ header,
 main {
   max-width: 1440px;
   padding: 20px 30px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ********************** */
@@ -208,10 +213,6 @@ main {
 /* ********************** */
 
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   background: url(../images/bg-header-mobile.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -253,11 +254,11 @@ header {
   margin-bottom: 64px;
 }
 
-/* .section-features-container {
+.section-features-container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-} */
+  align-items: center;
+}
 
 .section-one-illustration {
   margin-bottom: 50px;
