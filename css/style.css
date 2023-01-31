@@ -144,6 +144,18 @@ main {
   font-size: 28px;
   text-align: center;
   letter-spacing: -0.46px;
+  line-height: 35px;
+  margin-bottom: 16px;
+}
+
+.feature-heading {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.39px;
+  line-height: 30px;
+
+  margin-bottom: 10px;
 }
 
 .header-paragraph,
@@ -204,6 +216,8 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+
+  margin-bottom: 120px;
 }
 
 .header-logo {
@@ -226,4 +240,31 @@ header {
 
 .header-paragraph {
   text-align: center;
+}
+
+/* ********************** */
+/* SECTION ONE */
+/* ********************** */
+
+.section-one-container {
+}
+
+.section-one-intro {
+  margin-bottom: 64px;
+}
+
+/* .section-features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+} */
+
+.section-one-illustration {
+  margin-bottom: 50px;
+}
+
+.features-container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
