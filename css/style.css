@@ -120,3 +120,110 @@ button {
 
   --Transition: 0.8s all;
 }
+
+/* ********************** */
+/* LAYOUT */
+/* ********************** */
+
+body {
+  font-family: var(--Font-Family);
+}
+
+header,
+main {
+  max-width: 1440px;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+/* ********************** */
+/* HEADINGS + PARAGRAPHS */
+/* ********************** */
+
+.section-heading {
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.46px;
+}
+
+.header-paragraph,
+.section-paragraph,
+.feature-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.12px;
+  line-height: 26px;
+  color: var(--Secodary-Color);
+}
+
+/* ********************** */
+/* BUTTONS */
+/* ********************** */
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: var(--Btn-Text-Color);
+
+  border-radius: 30px;
+
+  padding: 11px 74px;
+}
+
+.ios-btn {
+  background: var(--Button-Color-One);
+  border-bottom: solid 4px var(--Button-Border-One);
+  box-shadow: var(--Button-Shadow-One);
+}
+
+.mac-btn {
+  background: var(--Button-Color-Two);
+  border-bottom: solid 4px var(--Button-Border-Two);
+  box-shadow: var(--Button-Shadow-Two);
+}
+
+/* ********************** */
+/* HEADER */
+/* ********************** */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.header-logo {
+  margin: 103px 0 63px 0;
+}
+
+.header-main-content {
+  margin-bottom: 50px;
+}
+
+.header-heading {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: -0.52px;
+  color: var(--Primary-Color);
+  margin-bottom: 16px;
+}
+
+.header-paragraph {
+  text-align: center;
+}
