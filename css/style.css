@@ -90,3 +90,33 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* ********************** */
+/* VARIABLES */
+/* ********************** */
+
+:root {
+  --Font-Family: "Bai Jamjuree", sans-serif;
+
+  --Button-Color-One: hsl(171, 66%, 44%);
+  --Button-Color-Two: hsl(233, 100%, 69%);
+
+  --Button-Border-One: hsl(170, 68%, 37%);
+  --Button-Border-Two: hsl(233, 69%, 60%);
+
+  --Button-Shadow-One: 0px 15px 30px -10px hsl(171, 52%, 58%);
+  --Button-Shadow-Two: 0px 15px 30px -10px hsl(233, 100%, 77%);
+
+  --Button-Color-One-Hover: hsl(171, 52%, 58%);
+  --Button-Color-Two-Hover: hsl(233, 100%, 77%);
+
+  --Primary-Color: hsl(210, 10%, 33%);
+  --Secodary-Color: hsl(201, 11%, 66%);
+
+  --Btn-Text-Color: hsl(0, 0%, 100%);
+
+  --Footer: hsl(220, 18%, 97%);
+  --Footer-Nav-Links-Hover: hsl(171, 52%, 58%);
+
+  --Transition: 0.8s all;
+}
