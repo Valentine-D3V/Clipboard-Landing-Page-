@@ -129,16 +129,25 @@ body {
   font-family: var(--Font-Family);
 }
 
-header,
-main {
+header {
   max-width: 1440px;
   padding: 20px 30px;
-  /* margin: 0 auto; */
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+main {
+  max-width: 1440px;
+  padding: 20px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 /* ********************** */
@@ -248,6 +257,7 @@ header {
 /* ********************** */
 
 .section-one-container {
+  margin-bottom: 146px;
 }
 
 .section-one-intro {
@@ -261,11 +271,23 @@ header {
 }
 
 .section-one-illustration {
-  margin-bottom: 50px;
+  margin-bottom: 56px;
 }
 
 .features-container-list {
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+
+/* ********************** */
+/* SECTION TWO */
+/* ********************** */
+
+.section-two-container {
+  margin-bottom: 62px;
+}
+
+.section-two-main-content {
+  margin-bottom: 68px;
 }
