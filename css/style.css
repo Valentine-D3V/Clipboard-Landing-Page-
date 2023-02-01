@@ -297,6 +297,10 @@ header {
 /* SECTION THREE */
 /* ********************** */
 
+.section-three-container {
+  margin-bottom: 89px;
+}
+
 .section-three-main-content {
   margin-bottom: 90px;
 }
@@ -328,4 +332,42 @@ header {
 
 .section-three-features-heading {
   margin-bottom: 19px;
+}
+
+/* ********************** */
+/* SECTION FOUR */
+/* ********************** */
+.section-four-container {
+  margin-bottom: 124px;
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 56px; */
+}
+
+.company-logo {
+  margin-bottom: 59px;
+}
+
+.company-logo-one {
+  max-width: 139px;
+}
+.company-logo-two {
+  max-width: 121px;
+  margin-bottom: 63px;
+}
+.company-logo-three {
+  max-width: 135px;
+  margin-bottom: 57px;
+}
+.company-logo-four {
+  max-width: 113px;
+  margin-bottom: 49px;
+}
+.company-logo-five {
+  max-width: 105px;
+  margin-bottom: 0;
 }
