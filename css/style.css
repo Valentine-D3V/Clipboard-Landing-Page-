@@ -349,7 +349,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* gap: 56px; */
 }
 
 .company-logo {
@@ -554,6 +553,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-bottom: 128px;
   }
 
   .section-three-main-content {
@@ -569,7 +570,33 @@ footer {
     text-align: center;
   }
 
-  /* .features-list:nth-child(1) {
-    margin-top: 20px;
-  } */
+  .company-list {
+    flex-direction: row;
+    align-items: center;
+    gap: 97px;
+  }
+
+  .company-logo {
+    margin-bottom: 0;
+  }
+
+  .company-logo-one {
+    max-width: 165px;
+  }
+  .company-logo-two {
+    max-width: 144px;
+    margin-bottom: 0;
+  }
+  .company-logo-three {
+    max-width: 160px;
+    margin-bottom: 0;
+  }
+  .company-logo-four {
+    max-width: 134px;
+    margin-bottom: 0;
+  }
+  .company-logo-five {
+    max-width: 125px;
+    margin-bottom: 0;
+  }
 }
