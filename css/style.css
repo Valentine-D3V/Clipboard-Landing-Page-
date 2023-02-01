@@ -159,6 +159,7 @@ main {
   text-align: center;
   letter-spacing: -0.46px;
   line-height: 35px;
+  color: var(--Primary-Color);
   margin-bottom: 16px;
 }
 
@@ -169,7 +170,7 @@ main {
   text-align: center;
   letter-spacing: -0.39px;
   line-height: 30px;
-
+  color: var(--Primary-Color);
   margin-bottom: 10px;
 }
 
@@ -378,7 +379,7 @@ header {
 /* ********************** */
 
 .section-five-container {
-  margin-bottom: 100px;
+  margin-bottom: 169px;
 }
 
 .section-five-main-content {
@@ -387,4 +388,55 @@ header {
 
 .section-five-heading {
   margin-bottom: 16px;
+}
+
+/* ********************** */
+/* FOOTER */
+/* ********************** */
+
+footer {
+  color: var(--Primary-Color);
+  background: var(--Footer);
+
+  padding: 32px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-company-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  margin-bottom: 28px;
+}
+
+.footer-logo {
+  max-width: 55px;
+}
+
+.footer-nav-list {
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.14px;
+}
+
+.footer-nav-list-link {
+  margin-bottom: 20px;
+}
+
+.social-media-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.social-media-list svg {
+  fill: var(--Primary-Color);
 }
