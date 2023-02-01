@@ -487,6 +487,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-bottom: 115px;
   }
 
   .section-one-intro {
@@ -534,5 +536,17 @@ footer {
     text-align: start;
     line-height: 30px;
     letter-spacing: 0.12px;
+  }
+
+  .section-two-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 36px;
+  }
+
+  .section-two-main-content {
+    margin-bottom: 100px;
   }
 }
