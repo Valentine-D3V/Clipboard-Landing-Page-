@@ -356,21 +356,26 @@ header {
 }
 
 .company-logo-one {
+  width: 100%;
   max-width: 139px;
 }
 .company-logo-two {
+  width: 100%;
   max-width: 121px;
   margin-bottom: 63px;
 }
 .company-logo-three {
+  width: 100%;
   max-width: 135px;
   margin-bottom: 57px;
 }
 .company-logo-four {
+  width: 100%;
   max-width: 113px;
   margin-bottom: 49px;
 }
 .company-logo-five {
+  width: 100%;
   max-width: 105px;
   margin-bottom: 0;
 }
@@ -380,6 +385,9 @@ header {
 /* ********************** */
 
 .section-five-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 169px;
 }
 
@@ -399,13 +407,14 @@ footer {
   color: var(--Primary-Color);
   background: var(--Footer);
 
-  padding: 32px 0;
+  padding: 20px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .footer-company-links {
@@ -413,8 +422,6 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-
-  margin-bottom: 28px;
 }
 
 .footer-logo {
@@ -554,16 +561,20 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 128px;
+    margin-bottom: 115px;
   }
 
   .section-three-main-content {
-    margin-bottom: 59px;
+    margin-bottom: 47px;
   }
 
   .section-three-features-list {
     flex-direction: row;
     gap: 30px;
+  }
+
+  .feature-icon-one {
+    margin-top: 25px;
   }
 
   .section-three-features-paragraph {
@@ -608,5 +619,46 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-bottom: 129px;
+  }
+
+  footer {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 20px 5px 20px;
+  }
+
+  .footer-container {
+    width: 100%;
+    max-width: 1150px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-company-links {
+    flex-direction: row;
+    gap: 134px;
+  }
+
+  .footer-logo {
+    margin-top: -10px;
+  }
+
+  .footer-nav-list {
+    columns: 3;
+    column-gap: 72px;
+    text-align: start;
+  }
+
+  .footer-nav-list-link {
+    margin-bottom: 14px;
+  }
+
+  .social-media-list {
+    gap: 24px;
   }
 }
