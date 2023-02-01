@@ -452,7 +452,7 @@ footer {
     background: url(../images/bg-header-desktop.png);
     background-size: cover;
 
-    margin-bottom: 120px;
+    margin-bottom: 114px;
   }
 }
 
@@ -481,5 +481,58 @@ footer {
 
   .button {
     padding: 11px 32px;
+  }
+
+  .section-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-one-intro {
+    margin-bottom: 80px;
+  }
+
+  .section-heading {
+    font-size: 36px;
+
+    letter-spacing: -0.59px;
+
+    margin-bottom: 24px;
+  }
+
+  .section-paragraph {
+    max-width: 730px;
+    font-size: 18px;
+
+    letter-spacing: 0.14px;
+    line-height: 30px;
+  }
+
+  .section-one-illustration {
+    margin-bottom: 0;
+    margin-left: -292px;
+    margin-right: 110px;
+  }
+
+  .section-features-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .features-container-list {
+    gap: 54px;
+    margin-top: 68px;
+  }
+
+  .feature-heading {
+    text-align: start;
+  }
+
+  .feature-paragraph {
+    max-width: 350px;
+    text-align: start;
+    line-height: 30px;
+    letter-spacing: 0.12px;
   }
 }
