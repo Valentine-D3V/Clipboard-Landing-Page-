@@ -98,6 +98,12 @@ button {
 :root {
   --Font-Family: "Bai Jamjuree", sans-serif;
 
+  --Header-Heading-FS: clamp(2rem, calc(1.6rem + 1.72vw), 2.88rem);
+  --Header-Paragraph-FS: clamp(1rem, calc(0.88rem + 0.49vw), 1.25rem);
+  --Section-Heading-FS: clamp(1.75rem, calc(1.52rem + 0.98vw), 2.25rem);
+
+  --Paragraph-FS: clamp(1rem, calc(0.94rem + 0.25vw), 1.13rem);
+
   --Button-Color-One: hsl(171, 66%, 44%);
   --Button-Color-Two: hsl(233, 100%, 69%);
 
@@ -130,13 +136,7 @@ body {
 }
 
 header {
-  /* max-width: 1440px; */
   padding: 20px 30px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 main {
@@ -144,29 +144,45 @@ main {
   padding: 20px 30px;
 
   margin: 0 auto;
+  gap: 40px;
+}
 
+header,
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
 }
 
 /* ********************** */
 /* HEADINGS + PARAGRAPHS */
 /* ********************** */
 
+.header-heading {
+  font-size: var(--Header-Heading-FS);
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: -0.52px;
+  color: var(--Primary-Color);
+  margin-bottom: 16px;
+
+  transition: var(--Transition);
+}
+
 .section-heading {
-  font-size: 28px;
+  font-size: var(--Section-Heading-FS);
   text-align: center;
   letter-spacing: -0.46px;
   line-height: 35px;
   color: var(--Primary-Color);
   margin-bottom: 16px;
+  transition: var(--Transition);
 }
 
-.feature-heading,
-.section-three-features-heading {
+.section-one-feature-heading,
+.section-three-feature-heading {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -174,17 +190,31 @@ main {
   line-height: 30px;
   color: var(--Primary-Color);
   margin-bottom: 10px;
+
+  transition: var(--Transition);
+}
+
+.header-paragraph {
+  max-width: 730px;
+  font-size: var(--Header-Paragraph-FS);
+}
+
+.section-paragraph,
+.feature-paragraph {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header-paragraph,
 .section-paragraph,
 .feature-paragraph {
-  font-size: 16px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.12px;
   line-height: 26px;
   color: var(--Secodary-Color);
+
+  transition: var(--Transition);
 }
 
 /* ********************** */
@@ -204,9 +234,8 @@ main {
   letter-spacing: 0.5px;
   color: var(--Btn-Text-Color);
 
-  border-radius: 30px;
-
   padding: 11px 48px;
+  border-radius: 30px;
 }
 
 .ios-btn {
@@ -232,6 +261,20 @@ main {
 }
 
 /* ********************** */
+/* FLEX */
+/* ********************** */
+.section-three-container,
+.section-features-container,
+.section-three-features-list,
+.features-list,
+.company-list,
+.section-five-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ********************** */
 /* HEADER */
 /* ********************** */
 
@@ -252,20 +295,6 @@ header {
   margin-bottom: 50px;
 }
 
-.header-heading {
-  font-size: 32px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 40px;
-  letter-spacing: -0.52px;
-  color: var(--Primary-Color);
-  margin-bottom: 16px;
-}
-
-.header-paragraph {
-  text-align: center;
-}
-
 /* ********************** */
 /* SECTION ONE */
 /* ********************** */
@@ -276,12 +305,6 @@ header {
 
 .section-one-intro {
   margin-bottom: 64px;
-}
-
-.section-features-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .section-one-illustration {
@@ -311,7 +334,7 @@ header {
 /* ********************** */
 
 .section-three-container {
-  margin-bottom: 89px;
+  margin-bottom: 112px;
 }
 
 .section-three-main-content {
@@ -323,25 +346,16 @@ header {
 }
 
 .section-three-features-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 56px;
-}
-
-.features-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .feature-icon {
   margin-bottom: 44px;
 }
 
-.feature-icon-one {
+/* .feature-icon-one {
   margin-bottom: 40px;
-}
+} */
 
 .section-three-features-heading {
   margin-bottom: 19px;
@@ -353,12 +367,6 @@ header {
 
 .section-four-container {
   margin-bottom: 124px;
-}
-
-.company-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .company-logo {
@@ -395,10 +403,7 @@ header {
 /* ********************** */
 
 .section-five-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 169px;
+  margin-bottom: 161px;
 }
 
 .section-five-main-content {
@@ -413,6 +418,14 @@ header {
 /* FOOTER */
 /* ********************** */
 
+footer,
+.footer-container,
+.footer-company-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer {
   color: var(--Primary-Color);
   background: var(--Footer);
@@ -421,17 +434,12 @@ footer {
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 20px;
 }
 
 .footer-company-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 40px;
+  margin-bottom: 28px;
 }
 
 .footer-logo {
@@ -495,24 +503,22 @@ footer {
   }
 
   .header-heading {
-    font-size: 46px;
     letter-spacing: -0.75px;
     margin-bottom: 23px;
   }
 
   .header-paragraph {
-    max-width: 730px;
-    font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.15px;
   }
 
   .button-container {
     flex-direction: row;
-    gap: 23px;
+    gap: 16px;
   }
 
   .button {
+    width: 227px;
     padding: 11px 32px;
   }
 
@@ -529,10 +535,7 @@ footer {
   }
 
   .section-heading {
-    font-size: 36px;
-
     letter-spacing: -0.59px;
-
     margin-bottom: 24px;
   }
 
@@ -560,7 +563,7 @@ footer {
     margin-top: 68px;
   }
 
-  .feature-heading {
+  .section-one-feature-heading {
     text-align: start;
   }
 
@@ -584,15 +587,15 @@ footer {
   }
 
   .section-three-container {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 
-    margin-bottom: 115px;
+    margin-bottom: 117px;
   }
 
   .section-three-main-content {
-    margin-bottom: 47px;
+    margin-bottom: 43px;
   }
 
   .section-three-features-list {
@@ -602,6 +605,10 @@ footer {
 
   .feature-icon-one {
     margin-top: 25px;
+  }
+
+  .section-three-feature-heading {
+    margin-bottom: 17px;
   }
 
   .section-three-features-paragraph {
@@ -651,11 +658,6 @@ footer {
   }
 
   footer {
-    min-height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     padding: 20px 20px 5px 20px;
   }
 
@@ -669,6 +671,7 @@ footer {
   .footer-company-links {
     flex-direction: row;
     gap: 134px;
+    margin-bottom: 0;
   }
 
   .footer-logo {
