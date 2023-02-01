@@ -135,16 +135,10 @@ body {
   font-family: var(--Font-Family);
 }
 
-header {
-  padding: 20px 30px;
-}
-
 main {
-  max-width: 1440px;
-  padding: 20px 30px;
-
+  max-width: 90rem;
   margin: 0 auto;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 header,
@@ -153,6 +147,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  padding: 1.25rem 1.88rem;
 }
 
 /* ********************** */
@@ -163,10 +159,10 @@ main {
   font-size: var(--Header-Heading-FS);
   font-weight: 600;
   text-align: center;
-  line-height: 40px;
+  line-height: 2.5rem;
   letter-spacing: -0.52px;
   color: var(--Primary-Color);
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 
   transition: var(--Transition);
 }
@@ -175,21 +171,21 @@ main {
   font-size: var(--Section-Heading-FS);
   text-align: center;
   letter-spacing: -0.46px;
-  line-height: 35px;
+  line-height: 2.19rem;
   color: var(--Primary-Color);
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   transition: var(--Transition);
 }
 
 .section-one-feature-heading,
 .section-three-feature-heading {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
   letter-spacing: -0.39px;
-  line-height: 30px;
+  line-height: 1.88rem;
   color: var(--Primary-Color);
-  margin-bottom: 10px;
+  margin-bottom: 0.63rem;
 
   transition: var(--Transition);
 }
@@ -201,7 +197,7 @@ main {
 
 .section-paragraph,
 .feature-paragraph {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -211,7 +207,7 @@ main {
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.12px;
-  line-height: 26px;
+  line-height: 1.63rem;
   color: var(--Secodary-Color);
 
   transition: var(--Transition);
@@ -224,18 +220,18 @@ main {
 .button-container {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 1.44rem;
 }
 
 .button {
-  font-size: 18px;
+  font-size: 1.13rem;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 1.88rem;
   letter-spacing: 0.5px;
   color: var(--Btn-Text-Color);
 
-  padding: 11px 48px;
-  border-radius: 30px;
+  padding: 0.69rem 3rem;
+  border-radius: 1.88rem;
 }
 
 .ios-btn {
@@ -284,15 +280,15 @@ header {
   background-position: top;
   background-size: contain;
 
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 
 .header-logo {
-  margin: 103px 0 63px 0;
+  margin: 6.44rem 0 3.94rem 0;
 }
 
 .header-main-content {
-  margin-bottom: 50px;
+  margin-bottom: 3.06rem;
 }
 
 /* ********************** */
@@ -300,21 +296,21 @@ header {
 /* ********************** */
 
 .section-one-container {
-  margin-bottom: 146px;
+  margin-bottom: 9.13rem;
 }
 
 .section-one-intro {
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
 }
 
 .section-one-illustration {
-  margin-bottom: 56px;
+  margin-bottom: 3.5rem;
 }
 
 .features-container-list {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 3rem;
 }
 
 /* ********************** */
@@ -322,11 +318,11 @@ header {
 /* ********************** */
 
 .section-two-container {
-  margin-bottom: 62px;
+  margin-bottom: 3.88rem;
 }
 
 .section-two-main-content {
-  margin-bottom: 68px;
+  margin-bottom: 4.25rem;
 }
 
 /* ********************** */
@@ -334,31 +330,27 @@ header {
 /* ********************** */
 
 .section-three-container {
-  margin-bottom: 112px;
+  margin-bottom: 7rem;
 }
 
 .section-three-main-content {
-  margin-bottom: 90px;
+  margin-bottom: 5.63rem;
 }
 
 .section-three-heading {
-  margin-bottom: 10px;
+  margin-bottom: 0.63rem;
 }
 
 .section-three-features-list {
-  gap: 56px;
+  gap: 3.5rem;
 }
 
 .feature-icon {
-  margin-bottom: 44px;
+  margin-bottom: 2.75rem;
 }
 
-/* .feature-icon-one {
-  margin-bottom: 40px;
-} */
-
 .section-three-features-heading {
-  margin-bottom: 19px;
+  margin-bottom: 1.19rem;
 }
 
 /* ********************** */
@@ -366,35 +358,35 @@ header {
 /* ********************** */
 
 .section-four-container {
-  margin-bottom: 124px;
+  margin-bottom: 7.75rem;
 }
 
 .company-logo {
-  margin-bottom: 59px;
+  margin-bottom: 3.69rem;
 }
 
 .company-logo-one {
   width: 100%;
-  max-width: 139px;
+  max-width: 8.69rem;
 }
 .company-logo-two {
   width: 100%;
-  max-width: 121px;
-  margin-bottom: 63px;
+  max-width: 7.56rem;
+  margin-bottom: 3.94rem;
 }
 .company-logo-three {
   width: 100%;
-  max-width: 135px;
-  margin-bottom: 57px;
+  max-width: 8.44rem;
+  margin-bottom: 3.56rem;
 }
 .company-logo-four {
   width: 100%;
-  max-width: 113px;
-  margin-bottom: 49px;
+  max-width: 7.06rem;
+  margin-bottom: 3.06rem;
 }
 .company-logo-five {
   width: 100%;
-  max-width: 105px;
+  max-width: 6.56rem;
   margin-bottom: 0;
 }
 
@@ -403,15 +395,15 @@ header {
 /* ********************** */
 
 .section-five-container {
-  margin-bottom: 161px;
+  margin-bottom: 10.06rem;
 }
 
 .section-five-main-content {
-  margin: 0 2px 48px 2px;
+  margin: 0 0.13rem 2.94rem 0.13rem;
 }
 
 .section-five-heading {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 /* ********************** */
@@ -430,31 +422,31 @@ footer {
   color: var(--Primary-Color);
   background: var(--Footer);
 
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .footer-container {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .footer-company-links {
-  gap: 40px;
-  margin-bottom: 28px;
+  gap: 2.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .footer-logo {
-  max-width: 55px;
+  max-width: 3.44rem;
 }
 
 .footer-nav-list {
-  font-size: 18px;
+  font-size: 1.13rem;
   text-align: center;
-  line-height: 30px;
+  line-height: 1.88rem;
   letter-spacing: 0.14px;
 }
 
 .footer-nav-list-link {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   transition: var(--Transition);
 }
 
@@ -465,7 +457,7 @@ footer {
 .social-media-list {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .social-media-list svg {
@@ -482,44 +474,44 @@ footer {
 /* MEDIA QUERY */
 /* ********************** */
 
-@media (min-width: 375px) {
+@media (min-width: 23.13em) {
   .button {
-    padding: 11px 74px;
+    padding: 0.69rem 4.63rem;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 37.5em) {
   header {
     background: url(../images/bg-header-desktop.png);
     background-size: cover;
 
-    margin-bottom: 114px;
+    margin-bottom: 7.13rem;
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 46.88em) {
   .header-logo {
-    margin: 111px 0 66px 0;
+    margin: 6.94rem 0 4.13rem 0;
   }
 
   .header-heading {
     letter-spacing: -0.75px;
-    margin-bottom: 23px;
+    margin-bottom: 1.44rem;
   }
 
   .header-paragraph {
-    line-height: 30px;
+    line-height: 1.88rem;
     letter-spacing: 0.15px;
   }
 
   .button-container {
     flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
   }
 
   .button {
-    width: 227px;
-    padding: 11px 32px;
+    width: 14.19rem;
+    padding: 0.69rem 2rem;
   }
 
   .section-one-container {
@@ -527,30 +519,30 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 115px;
+    margin-bottom: 7.19rem;
   }
 
   .section-one-intro {
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
   }
 
   .section-heading {
     letter-spacing: -0.59px;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
 
   .section-paragraph {
-    max-width: 730px;
-    font-size: 18px;
+    max-width: 62ch;
+    font-size: 1.13rem;
 
     letter-spacing: 0.14px;
-    line-height: 30px;
+    line-height: 1.88rem;
   }
 
   .section-one-illustration {
     margin-bottom: 0;
-    margin-left: -292px;
-    margin-right: 110px;
+    margin-left: -18.25rem;
+    margin-right: 6.88rem;
   }
 
   .section-features-container {
@@ -559,8 +551,8 @@ footer {
   }
 
   .features-container-list {
-    gap: 54px;
-    margin-top: 68px;
+    gap: 3.38rem;
+    margin-top: 4.25rem;
   }
 
   .section-one-feature-heading {
@@ -568,9 +560,9 @@ footer {
   }
 
   .feature-paragraph {
-    max-width: 350px;
+    max-width: 34ch;
     text-align: start;
-    line-height: 30px;
+    line-height: 1.88rem;
     letter-spacing: 0.12px;
   }
 
@@ -579,36 +571,32 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 36px;
+    margin-bottom: 2.25rem;
   }
 
   .section-two-main-content {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
   }
 
   .section-three-container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-
-    margin-bottom: 117px;
+    margin-bottom: 7.31rem;
   }
 
   .section-three-main-content {
-    margin-bottom: 43px;
+    margin-bottom: 2.69rem;
   }
 
   .section-three-features-list {
     flex-direction: row;
-    gap: 30px;
+    gap: 1.88rem;
   }
 
   .feature-icon-one {
-    margin-top: 25px;
+    margin-top: 1.56rem;
   }
 
   .section-three-feature-heading {
-    margin-bottom: 17px;
+    margin-bottom: 1.06rem;
   }
 
   .section-three-features-paragraph {
@@ -618,7 +606,7 @@ footer {
   .company-list {
     flex-direction: row;
     align-items: center;
-    gap: 97px;
+    gap: 6.06rem;
   }
 
   .company-logo {
@@ -626,69 +614,65 @@ footer {
   }
 
   .company-logo-one {
-    max-width: 165px;
+    max-width: 10.31rem;
   }
   .company-logo-two {
-    max-width: 144px;
+    max-width: 9rem;
     margin-bottom: 0;
   }
   .company-logo-three {
-    max-width: 160px;
+    max-width: 10rem;
     margin-bottom: 0;
   }
   .company-logo-four {
-    max-width: 134px;
+    max-width: 8.38rem;
     margin-bottom: 0;
   }
   .company-logo-five {
-    max-width: 125px;
+    max-width: 7.81rem;
     margin-bottom: 0;
   }
 
   .section-four-container {
-    margin-bottom: 118px;
+    margin-bottom: 7.38rem;
   }
 
   .section-five-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-bottom: 129px;
+    margin-bottom: 8.06rem;
   }
 
   footer {
-    padding: 20px 20px 5px 20px;
+    padding: 1.25rem 1.25rem 0.31rem 1.25rem;
   }
 
   .footer-container {
     width: 100%;
-    max-width: 1150px;
+    max-width: 71.88rem;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .footer-company-links {
     flex-direction: row;
-    gap: 134px;
+    gap: 8.38rem;
     margin-bottom: 0;
   }
 
   .footer-logo {
-    margin-top: -10px;
+    margin-top: -0.63rem;
   }
 
   .footer-nav-list {
     columns: 3;
-    column-gap: 72px;
+    column-gap: 4.5rem;
     text-align: start;
   }
 
   .footer-nav-list-link {
-    margin-bottom: 14px;
+    margin-bottom: 0.88rem;
   }
 
   .social-media-list {
-    gap: 24px;
+    gap: 1.5rem;
   }
 }
