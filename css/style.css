@@ -213,12 +213,22 @@ main {
   background: var(--Button-Color-One);
   border-bottom: solid 4px var(--Button-Border-One);
   box-shadow: var(--Button-Shadow-One);
+  transition: var(--Transition);
+}
+
+.ios-btn:is(:hover, :focus-visible) {
+  background: var(--Button-Color-One-Hover);
 }
 
 .mac-btn {
   background: var(--Button-Color-Two);
   border-bottom: solid 4px var(--Button-Border-Two);
   box-shadow: var(--Button-Shadow-Two);
+  transition: var(--Transition);
+}
+
+.mac-btn:is(:hover, :focus-visible) {
+  background: var(--Button-Color-Two-Hover);
 }
 
 /* ********************** */
@@ -437,6 +447,11 @@ footer {
 
 .footer-nav-list-link {
   margin-bottom: 20px;
+  transition: var(--Transition);
+}
+
+.footer-nav-list-link:is(:hover, :focus-visible) {
+  color: var(--Footer-Nav-Links-Hover);
 }
 
 .social-media-list {
@@ -447,6 +462,12 @@ footer {
 
 .social-media-list svg {
   fill: var(--Primary-Color);
+  transition: var(--Transition);
+}
+
+.social-media-list svg:is(:hover, :focus-visible) {
+  fill: var(--Footer-Nav-Links-Hover);
+  transition: var(--Transition);
 }
 
 /* ********************** */
