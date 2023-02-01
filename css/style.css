@@ -549,4 +549,27 @@ footer {
   .section-two-main-content {
     margin-bottom: 100px;
   }
+
+  .section-three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-three-main-content {
+    margin-bottom: 59px;
+  }
+
+  .section-three-features-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .section-three-features-paragraph {
+    text-align: center;
+  }
+
+  /* .features-list:nth-child(1) {
+    margin-top: 20px;
+  } */
 }
