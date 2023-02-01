@@ -337,6 +337,7 @@ header {
 /* ********************** */
 /* SECTION FOUR */
 /* ********************** */
+
 .section-four-container {
   margin-bottom: 124px;
 }
@@ -370,4 +371,20 @@ header {
 .company-logo-five {
   max-width: 105px;
   margin-bottom: 0;
+}
+
+/* ********************** */
+/* SECTION FIVE */
+/* ********************** */
+
+.section-five-container {
+  margin-bottom: 100px;
+}
+
+.section-five-main-content {
+  margin: 0 2px 48px 2px;
+}
+
+.section-five-heading {
+  margin-bottom: 16px;
 }
