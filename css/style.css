@@ -162,7 +162,8 @@ main {
   margin-bottom: 16px;
 }
 
-.feature-heading {
+.feature-heading,
+.section-three-features-heading {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -290,4 +291,41 @@ header {
 
 .section-two-main-content {
   margin-bottom: 68px;
+}
+
+/* ********************** */
+/* SECTION THREE */
+/* ********************** */
+
+.section-three-main-content {
+  margin-bottom: 90px;
+}
+
+.section-three-heading {
+  margin-bottom: 10px;
+}
+
+.section-three-features-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-icon {
+  margin-bottom: 44px;
+}
+
+.feature-icon-one {
+  margin-bottom: 40px;
+}
+
+.section-three-features-heading {
+  margin-bottom: 19px;
 }
