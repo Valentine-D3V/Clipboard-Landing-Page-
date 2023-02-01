@@ -206,7 +206,7 @@ main {
 
   border-radius: 30px;
 
-  padding: 11px 74px;
+  padding: 11px 48px;
 }
 
 .ios-btn {
@@ -474,6 +474,12 @@ footer {
 /* MEDIA QUERY */
 /* ********************** */
 
+@media (min-width: 375px) {
+  .button {
+    padding: 11px 74px;
+  }
+}
+
 @media (min-width: 600px) {
   header {
     background: url(../images/bg-header-desktop.png);
@@ -483,7 +489,7 @@ footer {
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 750px) {
   .header-logo {
     margin: 111px 0 66px 0;
   }
